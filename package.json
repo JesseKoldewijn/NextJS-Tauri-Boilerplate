@@ -6,7 +6,7 @@
 	"private": true,
 	"scripts": {
 		"dev": "next dev",
-		"dev:all": "tauri dev",
+		"dev:all": "next build && next export && tauri dev",
 		"build": "next build",
 		"ssg:gen": "next build && next export",
 		"start": "next start",
