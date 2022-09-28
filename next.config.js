@@ -11,5 +11,4 @@ const nextConfig = {
 		STAGE: "dev", // "dev" for development and "prod" for production runtime
 	},
 };
-
 module.exports = nextConfig;
