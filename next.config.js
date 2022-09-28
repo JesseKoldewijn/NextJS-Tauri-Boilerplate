@@ -1,5 +1,4 @@
 /** @type {import('next').NextConfig} */
-
 const nextConfig = {
 	reactStrictMode: false, // Can be re-enabled - just disabled it for more clear logging
 	swcMinify: true, // This option is required for NextJS to work with Tauri
